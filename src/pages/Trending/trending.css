@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=PT+Sans+Narrow&family=Rampart+One&display=swap');
+.trending{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Rampart One', cursive;
+}

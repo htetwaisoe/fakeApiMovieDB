@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=PT+Sans+Narrow&family=Rampart+One&display=swap');
+.header{
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color:#2D313A;
+    font-family: 'Rampart One', cursive;
+    font-size: 3vw;
+    padding-bottom: 15px;
+    box-shadow: 0px 1px 5px black;
+    color: #fff;
+    z-index: 100;
+}
+
+@media (max-width : 1000px) {
+    .header{
+        padding-top: 15px;
+        font-size: 5vw;
+    }
+}
